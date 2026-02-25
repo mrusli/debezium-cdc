@@ -1,7 +1,6 @@
 package com.pyramix.engine;
 
 import java.io.IOException;
-import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
@@ -10,7 +9,6 @@ import org.apache.kafka.connect.data.Struct;
 import org.apache.kafka.connect.source.SourceRecord;
 import org.springframework.stereotype.Component;
 
-import ch.qos.logback.core.joran.sanity.Pair;
 import io.debezium.config.Configuration;
 import io.debezium.data.Envelope.Operation;
 import io.debezium.embedded.Connect;
